@@ -1,6 +1,6 @@
 # Week 1 Project  
 
-## Your name should appear here!
+## Tejas Singh
 
 <!-- leave this material as is -->
 Compiled on `r date()`.
@@ -10,4 +10,11 @@ library(DataComputing)
 ```
 <!-- put your content after this line -->
 
-Here is my content!
+The [Indian Independence](https://en.wikipedia.org/wiki/Indian_independence_movement) was the day India attained freedom.
+
+- It happened in 1947.
+- India attained freedom from British rule.
+- This is also when the partition of India and Pakistan took place. 
+
+
+![A great picture](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Tipu_death.jpg/220px-Tipu_death.jpg)
