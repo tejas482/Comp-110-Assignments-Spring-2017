@@ -1,6 +1,6 @@
 # Week 2 Project
 
-## Your name should appear here!
+## Tejas Singh!
 
 <!-- leave this material as is -->
 Compiled on `r date()`.
@@ -10,4 +10,62 @@ library(DataComputing)
 ```
 <!-- put your content after this line -->
 
-Here is my content!
+I got this data from the the Library book use assignment web page (https://dtkaplan.github.io/comp110/Projects/251-Library-Books-github.html)
+
+The data set was downloaded using the following link:
+("http://tiny.cc/dcf/Library-small.rda",dest="Library-small.rda")
+
+Downloading the Data
+```{r include = FALSE}
+download.file("http://tiny.cc/dcf/Library-small.rda",dest="Library-small.rda")
+```
+
+**Basics**
+
+Loading the Data
+```{r}
+load("Library-small.rda")
+```
+
+**The Inv Table**
+
+Number of cases:
+```{r}
+nrow(Inv)
+```
+
+Number of variables:
+```{r}
+ncol(Inv)
+```
+
+Names of variables:
+
+```{r}
+names(Inv)
+```
+
+The codebook:
+```{r}
+help(Inv)
+```
+
+Summary of Table:
+```{r}
+summary(Inv)
+```
+
+In this Table (Inv) each case in the Macalester student libraryis a book with information about a its location, author, pages etc.
+
+Number of books in Table Inv: 
+```{r}
+Inv %>%group_by(Current.Status) %>%tally()
+```
+
+Number of times, books have been checked out in Table (Inv):
+```{r}
+Inv %>%group_by(Issued.Count) %>%tally()
+```
+The results show how many times each book has been issued. 
+
+
