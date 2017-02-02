@@ -1,6 +1,6 @@
 # Week 2 Short Answer Questions
 
-## Your name should appear here!
+## Tejas Singh!
 
 <!-- leave this material as is -->
 Compiled on `r date()`.
@@ -9,5 +9,116 @@ Compiled on `r date()`.
 library(DataComputing)
 ```
 <!-- put your content after this line -->
+
+Exercise 1.1
+
+a) Value of variable for a particular case
+b) Quantitaive
+c) Categorical  
+d) Categorical 
+e) Quantitative
+
+Exercise 1.2
+
+1) There is no concistency in the syntax of names. (Use of commas)
+2) The variable names could have clearer names.
+3) The values for Number of States are vague and non professional. They contain both numeric and alphabets.
+
+Exercise 1.4
+
+1)
+Table A: Year, Algeria, Brazil, Columbia
+Table B: Country, Y2000, Y2001
+Table C: Country, Year, Value
+
+2)
+Table A: A Year
+Table B: A country
+Table C: A country
+
+Exercise 1.5
+
+1) 14
+2) Each case represents an airport
+3) Airport ID (Categorical), Name (categorical), city (categorical), country (categorical), IATA (Categorical), ICAO (Categorical), Latidtude (numeric), longitude (numeric), Timezone (numeric), Altitude(numeric), DST(categorical), TZ(categorical), Type(categorical), Source (categorical).
+
+Exercise 2.2
+
+The name of an argument in a named argument.
+
+Exercise 2.3
+
+Population survey
+
+Exercise 2.4
+
+ '<-' is used to name and object. '=' is the appropriate syntax.
+ 
+ Exercise 2.6
+ 
+2,3,5,8 have special characters in the names which is the wrong syntax
+9 is a function which cannot be used to name an object.
+
+Exercise 2.7
+
+1.Variables= 19
+2.Cases= 336776
+3.Each case is a flight
+4.Quantitative= "year","month","day","dep_time","sched_dep_time","dep_delay","arr_time","sched_arr_time","arr_delay","hour","minute","time_hour","distance"
+Categorical="carrier","flight","origin","dest".
+5. air_time: h:mm, distance: miles.
+
+Exercise 2.8
+
+a) Improper syntax for function
+b) Wrong syntax for assignment
+c) improper object name
+d)Unmatched quotes
+e) No mistake
+
+Exercise 2.9
+
+all punctuations symbols cannot be present in the object name.
+all the symbols can be present in a string. 
+
+Exercise 2.10
+
+Exercise 3.1
+
+firplace <- freplace%>%head(4)
+firplace <- freplace%>%filter(year==2000)
+firplace <- freplace%>%head(4)names()
+
+Exercise 3.2
+
+The expression misses the name of the object after the '<-'
+
+Exercise 3.3
+
+<- instead of =
+
+Exercise 3.4
+
+1) B. 2) A. 3)C 4) A
+
+Exerceise 3.5
+
+1. Brain weight
+2. 83 cases
+3. Each case is a species
+4. Carnivore, Omnivore, Herbivore
+
+Exercise 4.1
+
+Italics
+bold
+bullet
+Big bold
+as is
+Very big bold
+
+
+
+
 
 Here is my content!
